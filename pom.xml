@@ -21,14 +21,14 @@
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
-			<version>5.7.3</version>
+			<version>${springsecurity.version}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-config -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
-			<version>5.7.3</version>
+			<version>${springsecurity.version}</version>
 		</dependency>
 
 		<!-- Adding spring security config-->
