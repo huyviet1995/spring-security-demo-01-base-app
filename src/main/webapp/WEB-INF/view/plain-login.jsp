@@ -7,7 +7,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Custom login page</title>
+	<title>Custom login page</title>
+	<style type="text/css">
+		.failed {
+			color: red;
+		}
+	</style>
 </head>
 <body>
 	<h3>
@@ -16,7 +21,7 @@
 	<form:form action="${pageContext.request.contextPath}/authenticateTheUser" method="POST">
 		<!--  Check for error message -->
 		<c:if test="${param.error != null}">
-			<i>Sorry! You have entered an invalid username or password</i>
+			<i class="failed">Sorry! You have entered an invalid username or password</i>
 		</c:if>
 		<p>
 			User name: <input type="text" name="username"/>
