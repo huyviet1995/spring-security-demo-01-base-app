@@ -53,6 +53,11 @@
 											Invalid username and password.</div>
 
 									</c:if>
+									<!--  Check for logout page -->
+									<c:if test="${param.logout != null}">
+										<div class="alert alert-success col-xs-off">You have
+											been logged out.</div>
+									</c:if>
 								</div>
 							</div>
 						</div>
@@ -63,9 +68,8 @@
 								class="glyphicon glyphicon-user"></i></span> <input type="text"
 								name="username" placeholder="username" class="form-control">
 						</div>
-						
-						<!-- Password -->
 
+						<!-- Password -->
 						<!-- Password -->
 						<div style="margin-bottom: 25px" class="input-group">
 							<span class="input-group-addon"><i
