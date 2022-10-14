@@ -70,7 +70,6 @@
 						</div>
 
 						<!-- Password -->
-						<!-- Password -->
 						<div style="margin-bottom: 25px" class="input-group">
 							<span class="input-group-addon"><i
 								class="glyphicon glyphicon-lock"></i></span> <input type="password"
