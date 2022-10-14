@@ -63,6 +63,8 @@
 								class="glyphicon glyphicon-user"></i></span> <input type="text"
 								name="username" placeholder="username" class="form-control">
 						</div>
+						
+						<!-- Password -->
 
 						<!-- Password -->
 						<div style="margin-bottom: 25px" class="input-group">
