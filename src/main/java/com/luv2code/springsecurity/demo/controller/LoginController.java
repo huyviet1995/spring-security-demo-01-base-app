@@ -9,6 +9,7 @@ public class LoginController {
 	public String showMyLohinPlace() {
 		return "fancy-login";
 	}
+
 }
 
 

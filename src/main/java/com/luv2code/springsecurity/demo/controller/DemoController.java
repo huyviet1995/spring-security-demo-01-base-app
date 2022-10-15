@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class DemoController {
 	@GetMapping("/")
 	public String showHome() {
-		System.out.println("Welcome to my homepage everyone");
 		return "home";
 	}
 }
